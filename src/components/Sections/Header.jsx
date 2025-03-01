@@ -34,7 +34,7 @@ export default function Header() {
             className="radius8"
             src={HeaderImage}
             alt="header-img"
-            style={{ zIndex: 9, height: 500 }}
+            style={{ zIndex: 9, width: 400 }}
           />
           <QuoteWrapper className="flexCenter lightBg radius8">
             <QuotesWrapper>

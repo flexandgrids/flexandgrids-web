@@ -13,9 +13,9 @@ export default function Contact() {
               Lets connect and make something awesome together!
             </p>
           </HeaderInfo>
-          <div className="row" style={{ paddingBottom: "30px" }}>
+          <div className="row" style={{ paddingBottom: "70px" }}>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <Form>
+              <Form style={{ width: "95%" }}>
                 <label className="font13">Full name:</label>
                 <input
                   type="text"
@@ -23,7 +23,7 @@ export default function Contact() {
                   name="fname"
                   style={{
                     border: "1px solid gray",
-                    borderRadius: "10px",
+                    borderRadius: "15px",
                     padding: "10px",
                   }}
                   className=" font-calibri"
@@ -35,7 +35,7 @@ export default function Contact() {
                   id="email"
                   style={{
                     border: "1px solid gray",
-                    borderRadius: "10px",
+                    borderRadius: "15px",
                     padding: "10px",
                   }}
                   name="email"
@@ -49,7 +49,7 @@ export default function Contact() {
                   name="subject"
                   style={{
                     border: "1px solid gray",
-                    borderRadius: "10px",
+                    borderRadius: "15px",
                     padding: "10px",
                   }}
                   className=" font-calibri"
@@ -64,7 +64,7 @@ export default function Contact() {
                   name="message"
                   style={{
                     border: "1px solid gray",
-                    borderRadius: "10px",
+                    borderRadius: "15px",
                     padding: "10px",
                     height: "40px",
                   }}
