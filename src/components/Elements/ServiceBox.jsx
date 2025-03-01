@@ -7,19 +7,19 @@ export default function ServiceBox({ icon, title, subtitle }) {
 
   switch (icon) {
     case "roller":
-      getIcon = <Icons.development />;
+      getIcon = <Icons.Development />;
       break;
     case "monitor":
-      getIcon = <Icons.microservices />;
+      getIcon = <Icons.Microservices />;
       break;
     case "browser":
-      getIcon = <Icons.solution />;
+      getIcon = <Icons.Solution />;
       break;
     case "printer":
-      getIcon = <Icons.architecture />;
+      getIcon = <Icons.Architecture />;
       break;
     default:
-      getIcon = <Icons.development />;
+      getIcon = <Icons.Development />;
       break;
   }
 
