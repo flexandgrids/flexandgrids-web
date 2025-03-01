@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
-// Components
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
-// Assets
 import LogoIcon from "../../assets/svg/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 
@@ -72,30 +70,6 @@ export default function TopNavbar() {
                 Services
               </Link>
             </li>
-            {/* <li className="semiBold font15 pointer">
-              <Link
-                activeClass="active"
-                style={{ padding: "10px 15px" }}
-                to="projects"
-                spy={true}
-                smooth={true}
-                offset={-80}
-              >
-                Projects
-              </Link>
-            </li> */}
-            {/* <li className="semiBold font15 pointer">
-              <Link
-                activeClass="active"
-                style={{ padding: "10px 15px" }}
-                to="blog"
-                spy={true}
-                smooth={true}
-                offset={-80}
-              >
-                Blog
-              </Link>
-            </li> */}
             <li className="semiBold font15 pointer">
               <Link
                 activeClass="active"
@@ -151,11 +125,6 @@ const BurderWrapper = styled.button`
 `;
 const UlWrapper = styled.ul`
   display: flex;
-  @media (max-width: 760px) {
-    display: none;
-  }
-`;
-const UlWrapperRight = styled.ul`
   @media (max-width: 760px) {
     display: none;
   }
