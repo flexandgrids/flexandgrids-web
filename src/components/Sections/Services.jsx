@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-// Components
 import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
-// Assets
 import AddImage1 from "../../assets/img/web/community-img-3.png";
 import AddImage2 from "../../assets/img/web/community-img-2.png";
 import AddImage3 from "../../assets/img/web/community-img-1.png";
