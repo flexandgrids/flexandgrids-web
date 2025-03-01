@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import FullButton from "../Buttons/FullButton";
-import HeaderImage from "../../assets/img/header-img.png";
+import HeaderImage from "../../assets/img/web/img-1-header.png";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
@@ -33,25 +33,25 @@ export default function Header() {
           <Img
             className="radius8"
             src={HeaderImage}
-            alt="office"
-            style={{ zIndex: 9 }}
+            alt="header-img"
+            style={{ zIndex: 9, height: 500 }}
           />
-          <QuoteWrapper className="flexCenter darkBg radius8">
+          <QuoteWrapper className="flexCenter lightBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
             </QuotesWrapper>
             <div>
-              <p className="font15 whiteColor">
+              <p className="font15 blackColor">
                 <em>
-                  Friends, such as we desire, are dreams and fables. Friendship
-                  demands the ability to do without it.
+                  We're committed to transforming ideas into innovative digital
+                  solutions.
                 </em>
               </p>
               <p
-                className="font13 orangeColor textRight"
+                className="font13 textRight text-main-blue"
                 style={{ marginTop: "10px" }}
               >
-                Ralph Waldo Emerson
+                Ahmad Raza (CEO & Founder)
               </p>
             </div>
           </QuoteWrapper>

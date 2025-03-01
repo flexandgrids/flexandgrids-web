@@ -1,51 +1,102 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
-import ContactImg1 from "../../assets/img/contact-1.png";
+import ContactImg1 from "../../assets/img/web/footer-img-1.png";
 import ContactImg2 from "../../assets/img/contact-2.png";
 import ContactImg3 from "../../assets/img/contact-3.png";
 
 export default function Contact() {
   return (
     <Wrapper id="contact">
-      <div className="lightBg">
+      <div className="">
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Lets connect and make something awesome together!
             </p>
           </HeaderInfo>
           <div className="row" style={{ paddingBottom: "30px" }}>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <Form>
-                <label className="font13">First name:</label>
-                <input type="text" id="fname" name="fname" className="font20 extraBold" />
+                <label className="font13">Full name:</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  style={{
+                    border: "1px solid gray",
+                    borderRadius: "10px",
+                    padding: "10px",
+                  }}
+                  className=" font-calibri"
+                  placeholder="Enter your name.."
+                />
                 <label className="font13">Email:</label>
-                <input type="text" id="email" name="email" className="font20 extraBold" />
+                <input
+                  type="text"
+                  id="email"
+                  style={{
+                    border: "1px solid gray",
+                    borderRadius: "10px",
+                    padding: "10px",
+                  }}
+                  name="email"
+                  className=" font-calibri"
+                  placeholder="Enter your email.."
+                />
                 <label className="font13">Subject:</label>
-                <input type="text" id="subject" name="subject" className="font20 extraBold" />
-                <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  style={{
+                    border: "1px solid gray",
+                    borderRadius: "10px",
+                    padding: "10px",
+                  }}
+                  className=" font-calibri"
+                  placeholder="Enter your subject.."
+                />
+                <label className="font13">Your Message:</label>
+                <textarea
+                  rows="4"
+                  cols="50"
+                  type="text"
+                  id="message"
+                  name="message"
+                  style={{
+                    border: "1px solid gray",
+                    borderRadius: "10px",
+                    padding: "10px",
+                    height: "40px",
+                  }}
+                  className=" font-calibri"
+                  placeholder="Enter your message.."
+                />
               </Form>
               <SumbitWrapper className="flex">
-                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
+                <ButtonInput
+                  type="submit"
+                  value="Send"
+                  className="pointer animate radius8"
+                  style={{ maxWidth: "150px" }}
+                />
               </SumbitWrapper>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
-              <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
+              <div
+                style={{ width: "50%" }}
+                className="flexNullCenter flexColumn"
+              >
                 <ContactImgBox>
-                  <img src={ContactImg1} alt="office" className="radius6" />
+                  <img
+                    width={400}
+                    src={ContactImg1}
+                    alt="office"
+                    className="radius6"
+                  />
                 </ContactImgBox>
-                <ContactImgBox>
-                  <img src={ContactImg2} alt="office" className="radius6" />
-                </ContactImgBox>
-              </div>
-              <div style={{ width: "50%" }}>
-                <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius6" />
-                </div>
               </div>
             </div>
           </div>
@@ -85,15 +136,15 @@ const Form = styled.form`
   }
 `;
 const ButtonInput = styled.input`
-  border: 1px solid #7620ff;
-  background-color: #7620ff;
+  border: 1px solid #36a9e1;
+  background-color: #36a9e1;
   width: 100%;
   padding: 15px;
   outline: none;
   color: #fff;
   :hover {
-    background-color: #580cd2;
-    border: 1px solid #7620ff;
+    background-color: #36a9e1;
+    border: 1px solid #36a9e1;
     color: #fff;
   }
   @media (max-width: 991px) {
@@ -101,8 +152,8 @@ const ButtonInput = styled.input`
   }
 `;
 const ContactImgBox = styled.div`
-  max-width: 180px; 
-  align-self: flex-end; 
+  max-width: 180px;
+  align-self: flex-end;
   margin: 10px 30px 10px 0;
 `;
 const SumbitWrapper = styled.div`
@@ -111,12 +162,3 @@ const SumbitWrapper = styled.div`
     margin-bottom: 50px;
   }
 `;
-
-
-
-
-
-
-
-
-

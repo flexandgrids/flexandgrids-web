@@ -9,11 +9,9 @@ export default function Pricing() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Check Our Pricing</h1>
+            <h1 className="font40 extraBold">Tech Stack</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              The most advance tech stack we are using in our projects.
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
@@ -92,10 +90,6 @@ const TableBox = styled.div`
   @media (max-width: 860px) {
     width: 100%;
     max-width: 370px;
-    margin: 0 auto
+    margin: 0 auto;
   }
 `;
-
-
-
-

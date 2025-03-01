@@ -70,7 +70,7 @@ export default function TopNavbar() {
                 Services
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            {/* <li className="semiBold font15 pointer">
               <Link
                 activeClass="active"
                 style={{ padding: "10px 15px" }}
@@ -81,7 +81,7 @@ export default function TopNavbar() {
               >
                 Tech Stack
               </Link>
-            </li>
+            </li> */}
             <li className="semiBold font15 pointer">
               <Link
                 activeClass="active"
